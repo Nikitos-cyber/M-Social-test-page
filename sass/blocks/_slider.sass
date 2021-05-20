@@ -1,0 +1,61 @@
+.title
+  &__image
+    width: 22px
+    height: 22px
+    margin-bottom: 7px
+    margin-right: 10px
+
+.slider
+  padding-bottom: 122px
+  &-wrapper
+
+  &-work
+    height: 190px
+    width: 100%
+    padding-top: 10px
+    padding-left: 2px
+
+    &__container
+      position: relative
+
+    &__button
+      position: absolute
+      width: 38px
+      height: 38px
+      border-radius: 50%
+      top: 50%
+      transform: translateY(-50%)
+      border: 1px solid $grey
+      background-color: #e3e7ea
+      overflow: visible
+      z-index: 99
+      background-repeat: no-repeat
+      cursor: pointer
+
+      &--prev
+        left: -70px
+        background-image: url(../img/prev.svg)
+        background-position: 8px 7px
+
+      &--next
+        right: -60px
+        background-image: url(../img/next.svg)
+        background-position: 11px 7px
+
+  &__title
+    color: #4c5b66
+    font-family: HelveticaNeue-Light
+    font-size: 20px
+    font-weight: 400
+    font-style: normal
+    letter-spacing: normal
+    margin-bottom: 22px
+
+.image-wrapper
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45)
+  border: 3px solid #ffffff
+  width: 220px
+
+.swiper
+  &-slider
+    &__item
